@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules/
+
+# Local offline bundled assets
+desktop-app/resources/libs/
+
+# Testing reports and outputs
+playwright-report/
+test-results/
+.pytest_cache/
+__pycache__/
+
+# Local-only generated test harness
+/package.json
+/package-lock.json
+/playwright.config.*
+/tests/
+
+# Local AI/tooling state
+.agents/
+
+# OS files
+.DS_Store
+Thumbs.db
